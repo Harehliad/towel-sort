@@ -49,7 +49,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
         [9, 10, 11, 12],
     ];
 
-    assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 4, 8, 7, 6, 5, 9, 10, 11, 12,]);
+    assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 4, 8, 7, 6, 5, 9, 10, 11, 12]);
   });
 
   it('should do towelSort', () => {
